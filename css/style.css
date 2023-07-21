@@ -1,14 +1,14 @@
-header {
-  background-color: black;
+div{
 }
-
-h1 {
-  color: green;
+.bigred {
+  font-size: 100px;
+  font-size: 50px;
+  color: red;
 }
-
-body {
-  font-size: 20px;
+/*span.bigred - такий формат запису має вищій приоритет ніж .bigred
+і порядок розположення не має значення це завжди вищій приоритет*/
+span.bigred{
+  font-size: 40px;
+  color: red;
 }
-body div {
-  font-size: 10px;
-}/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
