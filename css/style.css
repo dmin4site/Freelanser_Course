@@ -1,8 +1,7 @@
 div{
 }
 .bigred {
-  font-size: 100px;
-  font-size: 50px;
+  font-size: 22px;
   color: red;
 }
 /*span.bigred - такий формат запису має вищій приоритет ніж .bigred
